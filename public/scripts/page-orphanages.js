@@ -1,5 +1,5 @@
 //creating map
-const mymap = L.map('mapid').setView([-24.0227962, -46.4884611], 14);
+const mymap = L.map('mapid').setView([-24.0227962, -46.4884611], 15);
 
 //creating tileLayer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(mymap);
