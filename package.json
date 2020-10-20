@@ -1,0 +1,26 @@
+{
+    "name": "nextlevelweek-rocketseat",
+    "version": "1.0.0",
+    "description": "Repositório para armazenar os arquivos da NLW 3 - Caminho Discovery",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tjfaccipieri/nextlevelweek-rocketseat.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tjfaccipieri/nextlevelweek-rocketseat/issues"
+    },
+    "homepage": "https://github.com/tjfaccipieri/nextlevelweek-rocketseat#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "hbs": "^4.1.1",
+        "nodemon": "^2.0.6",
+        "sqlite-async": "^1.1.0"
+    }
+}
