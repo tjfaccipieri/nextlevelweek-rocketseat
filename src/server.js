@@ -6,7 +6,9 @@ const pages = require("./pages.js");
 const server = express();
 
 server
-//mapear arq. estáticos
+//utilizar body do req.
+    .use(express.urlencoded({ extended: true }))
+    //mapear arq. estáticos
     .use(express.static("public"))
 
 //configurar a templateEngine (handlebars)
@@ -18,6 +20,7 @@ server
     .get("/orphanage", pages.orphanage)
     .get("/orphanages", pages.orphanages)
     .get("/create-orphanage", pages.createOrphanage)
+    .post("/save-orphanage", pages.saveOrphanage)
 
 //ligar o servidor
 server.listen(5500);
